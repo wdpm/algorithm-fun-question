@@ -10,7 +10,7 @@
 //分析：
 // 使用一个set收集所有数字，排除重复
 // 对set中的每一个数字进行[0,9]的随机赋值，注意R W T S 不能为0，计算结果进行判断即可
-package primarylevel;
+package io.github.wdpm.primarylevel;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -60,12 +60,5 @@ public class Q13TODO {
 //        L:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
         //todo 这是一个全排列的问题 PermutationIterator
-        for (String word : wordValueMap.keySet()) {
-            Integer[] integers = wordValueMap.get(word);
-            for (Integer integer : integers) {
-//                int read=r*1000+e*100+a*10+d*1;
-            }
-        }
-
     }
 }

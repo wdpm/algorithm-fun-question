@@ -1,6 +1,4 @@
-// 求用十进制、二进制、八进制表示都是回
-// 文数的所有数字中，大于十进制数10 的最
-// 小值。
+// 求用十进制、二进制、八进制表示都是回文数的所有数字中，大于十进制数10 的最小值。
 String.prototype.reverseOrder = function () {
     return this.split("").reverse().join("");
 };

@@ -1,4 +1,5 @@
-package entrylevel;//考拉兹猜想
+package io.github.wdpm.entrylevel;
+//考拉兹猜想
 //    对自然数n 循环执行如下操作。
 //    n 是偶数时，用n 除以2
 //    n 是奇数时，用n 乘以3 后加1
@@ -42,9 +43,6 @@ public class Q6 {
             //再次判断initVal == i
             if (initVal == i) {
                 cnt++;
-//                System.out.println(initVal);
-//                System.out.println(i);
-//                System.out.println("----------");
             }
         }
         System.out.println("cnt: " + cnt);//34

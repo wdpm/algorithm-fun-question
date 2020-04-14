@@ -1,2 +1,2 @@
 # algorithm-fun-question
-algorithm fun question
+《程序员的算法趣题》Java版代码。进度中断于Q16。

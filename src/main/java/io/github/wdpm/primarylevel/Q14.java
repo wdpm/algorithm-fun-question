@@ -1,4 +1,4 @@
-package primarylevel;
+package io.github.wdpm.primarylevel;
 
 //2014年FIFA 世界杯参赛国
 //Brazil   Croatia          Mexico
@@ -17,7 +17,6 @@ package primarylevel;
 //（因为没有英文名称以D 开头的国家）。
 //“Japan” →“ Netherlands” →“ Switzerland”
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;

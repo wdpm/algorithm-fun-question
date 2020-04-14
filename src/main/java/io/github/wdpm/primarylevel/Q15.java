@@ -1,4 +1,4 @@
-package primarylevel;
+package io.github.wdpm.primarylevel;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,13 +7,8 @@ public class Q15 {
     static Map<String, Integer> memoMap = new HashMap<>();
 
     public static void main(String[] args) {
-
-        int N = 10;
+        int N = 20;
         int maxSteps = 4;
-//        int move = move(0, N, maxSteps);
-//        System.out.println(move);
-
-        N = 20;
         int move = moveByMemo(0, N, maxSteps);
         System.out.println(move);//141977
     }

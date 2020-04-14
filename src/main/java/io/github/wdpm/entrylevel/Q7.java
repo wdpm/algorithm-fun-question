@@ -1,9 +1,7 @@
-package entrylevel;
+package io.github.wdpm.entrylevel;
 
 import java.time.LocalDate;
-import java.time.Month;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 //把年月日表示为YYYYMMDD 这样的8 位整数，然后把这个整数转换成
 //二进制数并且逆序排列，再把得到的二进制数转换成十进制数，求与原日期一
@@ -28,7 +26,7 @@ public class Q7 {
             StringBuilder binReverse = (new StringBuilder(bin)).reverse();
             String dest;
             try {
-                dest = Integer.toString(Integer.parseInt(binReverse.toString(), 2),10);
+                dest = Integer.toString(Integer.parseInt(binReverse.toString(), 2), 10);
                 if (original.equals(dest)) {
                     System.out.println(original);
                 }

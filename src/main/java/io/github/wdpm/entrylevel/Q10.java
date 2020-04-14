@@ -1,4 +1,4 @@
-package entrylevel;//轮盘的最大值
+package io.github.wdpm.entrylevel;//轮盘的最大值
 
 //欧式规则
 //        0, 32, 15, 19, 4, 21, 2, 25, 17, 34, 6,
@@ -49,21 +49,6 @@ public class Q10 {
         for (int j = 0; j < n; j++) {
             sum += nums[j];
         }
-
-        //每次重新计算和，性能较差
-//        for (int i = 1; i < nums.length; i++) {
-//            int newSum = 0;
-//            for (int j = i; j < n + i; j++) {//i,i+1,...,n+i-1,一共n个
-//                if (j >= nums.length) {//超过尾部，回头找
-//                    int backIndex = j % nums.length;
-//                    newSum += nums[backIndex];
-//                } else {
-//                    newSum += nums[j];
-//                }
-//            }
-//            sum = Math.max(newSum, sum);
-//        }
-//        return sum;
 
         int ans = sum;
         int currentSum = sum;

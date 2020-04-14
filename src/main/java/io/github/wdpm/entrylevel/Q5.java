@@ -1,4 +1,5 @@
-package entrylevel;//用纸币兑换到10 日元、50 日元、100 日元和500 日元硬币的组合，且每种硬币的数量都足够多。
+package io.github.wdpm.entrylevel;
+//用纸币兑换到10 日元、50 日元、100 日元和500 日元硬币的组合，且每种硬币的数量都足够多。
 //兑换时，允许机器兑换出本次支付时用不到的硬币。只允许机器最多兑换出15 枚硬币。
 //譬如用1000 日元纸币兑换时，就不能兑换出“100 枚10 日元硬币”的组合
 
@@ -11,6 +12,7 @@ public class Q5 {
     public static void main(String[] args) {
         findCombinationV1();
     }
+
     private static void findCombinationV1() {
         //coin10 [0,15]
         //coin50 [0,15]
